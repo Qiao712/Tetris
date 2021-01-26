@@ -1,0 +1,13 @@
+﻿  Block.cpp
+  BlockFactory.cpp
+  Combination.cpp
+  CombinationFactory.cpp
+  Game.cpp
+  main.cpp
+  MySDL.cpp
+  Texture.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 343 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Tetris.vcxproj -> D:\workplace\Project\Tetris\x64\Release\Tetris.exe

@@ -1,0 +1,38 @@
+﻿  MySDL.cpp
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetError，函数 _SDL_main 中引用了该符号
+MySDL.obj : error LNK2001: 无法解析的外部符号 _SDL_GetError
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RWFromFile，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_MapRGB，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_FreeSurface，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_LoadBMP_RW，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_SetColorKey，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyWindow，函数 _SDL_main 中引用了该符号
+MySDL.obj : error LNK2001: 无法解析的外部符号 _SDL_DestroyWindow
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetKeyboardState，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetMouseState，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_PollEvent，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetBasePath，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateTextureFromSurface，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_QueryTexture，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RenderClear，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RenderPresent，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyTexture，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyRenderer，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetTicks，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Quit，函数 _SDL_main 中引用了该符号
+MySDL.obj : error LNK2001: 无法解析的外部符号 _SDL_Quit
+main.obj : error LNK2019: 无法解析的外部符号 _TTF_Init，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _TTF_OpenFont，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _TTF_RenderText_Solid，函数 _SDL_main 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 "struct SDL_Window * win" (?win@@3PAUSDL_Window@@A)
+MySDL.obj : error LNK2001: 无法解析的外部符号 "struct SDL_Window * win" (?win@@3PAUSDL_Window@@A)
+main.obj : error LNK2001: 无法解析的外部符号 "struct SDL_Renderer * ren" (?ren@@3PAUSDL_Renderer@@A)
+MySDL.obj : error LNK2001: 无法解析的外部符号 "struct SDL_Renderer * ren" (?ren@@3PAUSDL_Renderer@@A)
+MySDL.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateWindow，函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中引用了该符号
+MySDL.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateRenderer，函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中引用了该符号
+MySDL.obj : error LNK2019: 无法解析的外部符号 _SDL_Init，函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中引用了该符号
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\workplace\Project\Tetris\SDL2-2.0.12\lib\x64\SDL2main.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\workplace\Project\Tetris\SDL2-2.0.12\lib\x64\SDL2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\workplace\Project\Tetris\SDL2_ttf-2.0.15\lib\x64\SDL2_ttf.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\workplace\Project\Tetris\Debug\Tetris.exe : fatal error LNK1120: 28 个无法解析的外部命令
