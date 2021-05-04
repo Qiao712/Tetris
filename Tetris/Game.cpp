@@ -60,7 +60,7 @@ void Game::logic()
 			break;
 		}
 
-		case GAME_OVER: {
+		case GAME_OVER_MENU: {
 			
 			break;
 		}
@@ -210,7 +210,7 @@ void Game::deathJudge()
 			Block* s = BlockFactory::CreateSticker(0, 0, 0);
 			s->position((width - s->getWidth()) / 2, (height - s->getHeight()) / 2);
 			stickers.push_back(s);
-			state = GAME_OVER;
+			state = GAME_OVER_MENU;
 		}
 	}
 }

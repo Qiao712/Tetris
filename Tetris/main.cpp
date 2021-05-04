@@ -5,6 +5,7 @@
 #include"res.h"
 #include"BlockFactory.h"
 #include"Game.h"
+#include"Menu.h"
 using namespace std;
 
 int main(int, char**) {
@@ -15,19 +16,21 @@ int main(int, char**) {
 
 	//游戏对象--核心
 	Game game;
-	Texture tex("test.bmp");
 
 	//主循环
 	SDL_Event e;
 	bool quit = false;
 	while (!quit) {
+		//更新GUI所需的鼠标位置
+		int x, y;
+		SDL_GetMouseState(&x, &y);
+		Menu::updateMousePosition(x, y);
 
 		//获取事件
 		while (SDL_PollEvent(&e)) {
 			//程序的退出
 			if (e.type == SDL_QUIT) {
 				quit = true;
-			}
 
 			//使用键盘状态
 			const Uint8* currentKeyStates = SDL_GetKeyboardState(NULL);	//获取当前键盘状态

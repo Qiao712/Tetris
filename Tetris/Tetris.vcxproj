@@ -155,19 +155,23 @@
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="BlockFactory.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="Combination.cpp" />
     <ClCompile Include="CombinationFactory.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="MySDL.cpp" />
     <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="BlockFactory.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Combination.h" />
     <ClInclude Include="CombinationFactory.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="MySDL.h" />
     <ClInclude Include="res.h" />
     <ClInclude Include="Texture.h" />

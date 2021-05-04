@@ -47,8 +47,8 @@ private:
 	//贴纸
 	vector<Block*> stickers;
 
-	//游戏状态
-	enum{ BLOCK_SHOWUP, BLOCK_MOVE1, BLOCK_REMOVE, BLOCK_MOVE2, GAME_OVER};
+	//游戏状态, 开始菜单、方块出现、方块移动1（下落）、方块消失、方块移动2（消失后方块的下落）、游戏结束菜单、暂停菜单
+	enum{START_MENU, BLOCK_SHOWUP, BLOCK_MOVE1, BLOCK_REMOVE, BLOCK_MOVE2, GAME_OVER_MENU, PAUSE_MENU};
 	int state = BLOCK_SHOWUP;						//当前游戏状态（阶段）
 	unsigned long long time_interval = 0;
 

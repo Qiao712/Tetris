@@ -28,7 +28,6 @@ private:
 	//从文件中载入纹理，从\res中寻找
 	void loadFromBMP(string path);
 	
-	
 	SDL_Texture* texture;
 	int height = 0;
 	int width = 0;

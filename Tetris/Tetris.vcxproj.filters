@@ -19,6 +19,12 @@
     <Filter Include="源文件\MySDL">
       <UniqueIdentifier>{7f943419-e9a9-49f1-9827-d399d26a13ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\GUI">
+      <UniqueIdentifier>{2e4c364e-1424-453a-b7f4-f4143dc04310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GUI">
+      <UniqueIdentifier>{91b41cd6-89ee-4ab4-aba7-e8ec17bb74df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +51,12 @@
     <ClCompile Include="CombinationFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -69,6 +81,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CombinationFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
