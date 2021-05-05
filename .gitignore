@@ -1,11 +1,4 @@
-.vs/
-Debug/
-SDL2_ttf-2.0.15/
-SDL2-2.0.12/
-x64/
-Tetris/Debug/
-Tetris/x64/
-.dll
-Tetris/Tetris.vcxproj.user
-Tetris/Tetris.vcxproj
-Tetris/Tetris.vcxproj.filters
+SDL2-2.0.14/
+.vscode/
+gb2312_to_utf8.py
+build/
